@@ -4,7 +4,9 @@
   (:nicknames #:mu)
   (:use #:cl)
 
-  ;; Third-party libraries
+  ;;; Third-party libraries
+
+  ;; alexandria
   (:inherit-from #:alexandria
                  #:appendf
                  #:clamp
@@ -19,6 +21,7 @@
                  #:when-let
                  #:with-unique-names
                  #:define-constant)
+  ;; serapeum
   (:inherit-from #:serapeum
                  #:defplace
                  #:dict
@@ -27,13 +30,16 @@
                  #:mvlet
                  #:partition)
 
-  ;; Custom functions
+  ;;; Custom functions
+
+  ;; macros
   (:export #:while
            #:define-printer
            #:when-found
            #:unless-found
-           #:if-found
-           #:+seconds/minute+
+           #:if-found)
+  ;; constants
+  (:export #:+seconds/minute+
            #:+minutes/hour+
            #:+hours/day+
            #:+seconds/hour+
@@ -46,10 +52,12 @@
            #:+day-names+
            #:+day-names/short+
            #:+month-names+
-           #:+month-names/short+
-           #:b8
-           #:ub8
-           #:ascii-char-p
+           #:+month-names/short+)
+  ;; types
+  (:export #:b8
+           #:ub8)
+  ;; characters
+  (:export #:ascii-char-p
            #:ascii-lowercase-p
            #:ascii-uppercase-p
            #:ascii-letter-p
