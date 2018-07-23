@@ -9,4 +9,8 @@
   :pathname "src"
   :serial t
   :components
-  ((:file "package")))
+  ((:file "package")
+   (:file "macros")
+   (:file "constants")
+   (:file "types")
+   (:file "character")))

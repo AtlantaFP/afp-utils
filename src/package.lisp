@@ -16,7 +16,9 @@
                  #:make-keyword
                  #:shuffle
                  #:symbolicate
-                 #:when-let)
+                 #:when-let
+                 #:with-unique-names
+                 #:define-constant)
   (:inherit-from #:serapeum
                  #:defplace
                  #:dict
@@ -26,4 +28,30 @@
                  #:partition)
 
   ;; Custom functions
-  (:export))
+  (:export #:while
+           #:define-printer
+           #:when-found
+           #:unless-found
+           #:if-found
+           #:+seconds/minute+
+           #:+minutes/hour+
+           #:+hours/day+
+           #:+seconds/hour+
+           #:+seconds/day+
+           #:+minutes/day+
+           #:+days/week+
+           #:+hours/week+
+           #:+minutes/week+
+           #:+seconds/week+
+           #:+day-names+
+           #:+day-names/short+
+           #:+month-names+
+           #:+month-names/short+
+           #:b8
+           #:ub8
+           #:ascii-char-p
+           #:ascii-lowercase-p
+           #:ascii-uppercase-p
+           #:ascii-letter-p
+           #:ascii-number-p
+           #:ascii-alphanumeric-p))
