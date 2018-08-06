@@ -1,5 +1,5 @@
-(asdf:defsystem #:my-utils
-  :description "My utilities"
+(asdf:defsystem #:afp-utils
+  :description "Atlanta Functional Programming utility library"
   :author ("Michael Fiano <mail@michaelfiano.com>")
   :license "MIT"
   :version "0.1.0"

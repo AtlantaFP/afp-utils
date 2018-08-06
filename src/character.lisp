@@ -1,4 +1,4 @@
-(in-package :my-utils)
+(in-package :afp-utils)
 
 (defun ascii-char-p (char)
   (and (characterp char)

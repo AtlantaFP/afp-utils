@@ -1,4 +1,4 @@
-(in-package :my-utils)
+(in-package :afp-utils)
 
 (define-constant +seconds/minute+ 60)
 

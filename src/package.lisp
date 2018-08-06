@@ -1,7 +1,6 @@
 (in-package :cl-user)
 
-(defpackage+-1:defpackage+ #:my-utils
-  (:nicknames #:mu)
+(defpackage+-1:defpackage+ #:afp-utils
   (:use #:cl)
 
   ;;; Third-party libraries

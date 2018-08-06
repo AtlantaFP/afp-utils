@@ -1,4 +1,4 @@
-(in-package :my-utils)
+(in-package :afp-utils)
 
 (defmacro define-printer ((object stream &key (type t) identity) &body body)
   `(defmethod print-object ((,object ,object) ,stream)
