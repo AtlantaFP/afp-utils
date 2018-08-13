@@ -3,7 +3,7 @@
 (defpackage+-1:defpackage+ #:afp-utils
   (:use #:cl)
 
-  ;;; Third-party libraries
+;;; Third-party libraries
 
   ;; alexandria
   (:inherit-from #:alexandria
@@ -29,7 +29,7 @@
                  #:mvlet
                  #:partition)
 
-  ;;; Custom functions
+;;; Custom functions
 
   ;; macros
   (:export #:while
@@ -61,4 +61,6 @@
            #:ascii-uppercase-p
            #:ascii-letter-p
            #:ascii-number-p
-           #:ascii-alphanumeric-p))
+           #:ascii-alphanumeric-p)
+  ;; lists
+  (:export #:plist-remove))

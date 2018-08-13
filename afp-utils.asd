@@ -13,4 +13,5 @@
    (:file "macros")
    (:file "constants")
    (:file "types")
-   (:file "character")))
+   (:file "character")
+   (:file "plist")))
