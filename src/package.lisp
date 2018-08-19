@@ -28,6 +28,7 @@
                  #:href
                  #:merge-tables
                  #:mvlet
+                 #:mvlet*
                  #:partition)
 
 ;;; Custom functions
