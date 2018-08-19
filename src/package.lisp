@@ -18,6 +18,7 @@
                  #:shuffle
                  #:symbolicate
                  #:when-let
+                 #:if-let
                  #:with-unique-names
                  #:define-constant)
   ;; serapeum
