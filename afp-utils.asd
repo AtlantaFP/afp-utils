@@ -14,4 +14,5 @@
    (:file "constants")
    (:file "types")
    (:file "character")
-   (:file "plist")))
+   (:file "plist")
+   (:file "hash-table")))

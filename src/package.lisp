@@ -64,4 +64,9 @@
            #:ascii-number-p
            #:ascii-alphanumeric-p)
   ;; lists
-  (:export #:plist-remove))
+  (:export #:plist-remove)
+  ;; hash tab;e
+  (:export #:do-hash
+           #:do-hash-keys
+           #:do-hash-values))
+  )
