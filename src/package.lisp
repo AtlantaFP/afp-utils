@@ -12,6 +12,7 @@
                  #:copy-hash-table
                  #:deletef
                  #:format-symbol
+                 #:hash-table-keys
                  #:iota
                  #:lerp
                  #:make-keyword
